@@ -1,0 +1,109 @@
+/*.accordion > .card > .card-header {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+
+/*}*/
+/*.accordion > .card {*/
+/*    border: none;*/
+/*}*/
+/*.faq-border {*/
+/*    border-top: 2px solid #000 !important;*/
+/*    border-radius: 0;*/
+/*    background-color: transparent;*/
+/*}*/
+/*.faq-border > .card .card-header {*/
+/*    background-color: transparent;*/
+/*    border: none;*/
+/*    padding: 15px 20px 15px 0;*/
+/*    cursor: pointer;*/
+/*}*/
+/*.faq-border > .card .card-body {*/
+/*    background-color: transparent;*/
+/*    border: none;*/
+/*    padding: 15px 20px 15px 0;*/
+/*}*/
+/*.faq-border:last-child {*/
+/*    border-bottom: 2px solid #000;*/
+/*}*/
+/*.button-faq {*/
+/*    content: '';*/
+/*    width: 9px;*/
+/*    height: 7px;*/
+/*    display: block;*/
+/*    position: absolute;*/
+/*    right: 5px;*/
+/*    top: 23px;*/
+/*    background-position: center;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: cover;*/
+/*    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iOSIgaGVpZ2h0PSI2IiB2aWV3Qm94PSIwIDAgOSA2IiBmaWxsPSJub25lIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgogICAgPHBhdGggZD0iTTQuNSA2TDAuNjAyODg1IDAuNzVMOC4zOTcxMSAwLjc1MDAwMUw0LjUgNloiIGZpbGw9ImJsYWNrIiAvPgo8L3N2Zz4=);*/
+/*    border: 0;*/
+/*    background-color: transparent;*/
+/*}*/
+.accordion .item {
+    box-shadow: 0px -2px 0px 0px black;
+}
+.accordion .item .item-header {
+    padding: 0px;
+}
+.accordion .plus  {
+    position: absolute;
+    transition: .2s;
+    width: 20px;
+    top: 50%;
+    margin-top: -10px;
+    right: 3px;
+    height: 20px;
+}
+.accordion .item .item-header button .plus {
+    position: absolute;
+    transition: .2s;
+    width: 20px;
+    top: 50%;
+    margin-top: -10px;
+    right: 3px;
+    height: 20px;
+}
+.accordion .plus i.vertical {
+    position: absolute;
+    transition: .2s;
+    display: block;
+    width: 2px;
+    left: 9px;
+    height: 20px;
+    background-color: #000;
+    opacity: 1;
+}
+.accordion .plus i.horisontal {
+    position: absolute;
+    display: block;
+    width: 20px;
+    top: 9px;
+    height: 2px;
+    background-color: #000;
+}
+.accordion .item .item-header button {
+    position: relative;
+    text-align: left;
+    transition: .3s;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 47px 30px 47px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    background: transparent;
+    border: none;
+}
+/*.button-faq > .show {*/
+/*    transform: rotate(*/
+/*            180deg*/
+/*    );*/
+/*}*/
+/*.button-faq {*/
+/*    position: absolute;*/
+/*    right: 0;*/
+/*}*/

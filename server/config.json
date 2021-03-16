@@ -1,0 +1,4 @@
+﻿{
+    "secret": "JWT SECRET",
+    "salt": "DB SALT"
+}

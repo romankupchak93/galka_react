@@ -1,0 +1,109 @@
+.accordion .item {
+    box-shadow: 0px -2px 0px 0px black;
+}
+.accordion .item .item-header {
+    padding: 0px;
+}
+.accordion .item .item-header button {
+    position: relative;
+    text-align: left;
+    transition: .3s;
+    width: 100%;
+    outline: none;
+    background: none;
+    padding: 47px 30px 47px 0px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 28px;
+    line-height: 34px;
+    letter-spacing: -0.02em;
+    background: transparent;
+    border: none;
+}
+.accordion .item .item-header button:hover {
+    transition: .3s;
+    padding: 47px 30px;
+    background: #000;
+    color: #fff;
+}
+.accordion .item .item-header button:hover .plus {
+    transition: .2s;
+    transform: translateX(-30px);
+}
+.accordion .item .item-header button:hover .plus i.vertical {
+    background-color: #fff;
+}
+
+.accordion .item .item-header button:hover .plus i.horisontal {
+    background-color: #fff;
+}
+.accordion .item .item-header button[aria-expanded=true]:hover .plus i.vertical,
+.accordion .item .item-header button[aria-expanded=true]:hover .plus i.horisontal {
+    background-color: #000;
+    transition: .2s;
+    transform: translateX(0px);
+
+}
+.accordion .item .item-header button[aria-expanded=true]:hover .plus,
+.accordion .item .item-header div[type="button"][aria-expanded=true]:hover .plus {
+    transition: .2s;
+    transform: translateX(0px);
+}
+.accordion .item .item-header button[aria-expanded=true]:hover {
+    transition: .3s;
+    padding: 47px 30px 47px 0px;
+    color: #000;
+    background: transparent !important;
+}
+.accordion .plus  {
+    position: absolute;
+    transition: .2s;
+    width: 20px;
+    top: 50%;
+    margin-top: -10px;
+    right: 3px;
+    height: 20px;
+}
+.accordion .item .item-header button .plus {
+    position: absolute;
+    transition: .2s;
+    width: 20px;
+    top: 50%;
+    margin-top: -10px;
+    right: 3px;
+    height: 20px;
+}
+.accordion .plus i.vertical {
+    position: absolute;
+    transition: .2s;
+    display: block;
+    width: 2px;
+    left: 9px;
+    height: 20px;
+    background-color: #000;
+    opacity: 1;
+}
+.accordion .plus i.horisontal {
+    position: absolute;
+    display: block;
+    width: 20px;
+    top: 9px;
+    height: 2px;
+    background-color: #000;
+}
+
+
+.accordion .item .item-header button[aria-expanded=true] .plus i.vertical {
+    opacity: 0;
+}
+
+.accordion .item:last-child {
+    box-shadow: 0px -2px 0px 0px black, 0px 2px 0px 0px black;
+}
+.accordion .item .item-body {
+    padding: 10px 0px 20px;
+    font-size: 20px;
+    line-height: 30px;
+    padding-right: 25px;
+    font-weight: 300;
+}

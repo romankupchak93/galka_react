@@ -1,0 +1,89 @@
+@import "fonts/e-Ukraine/font.css";
+
+body * {
+    word-break: keep-all;
+    word-wrap: break-word;
+    font-family: 'e-Ukraine-Regular', sans-serif;
+    outline: none;
+}
+a {
+    color: #000;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'e-Ukraine-Regular', sans-serif;
+    letter-spacing: -0.02em;
+}
+p {
+    font-family: 'e-Ukraine-Light', sans-serif;
+    letter-spacing: -0.02em;
+}
+@media (max-width: 768px) {
+    .responsive-title {
+        max-width: 260px;
+    }
+}
+.pt-7 {
+    padding-top: 7rem;
+}
+.pt-8 {
+    padding-top: 8rem;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+nav .gal-btn {
+    font-size: 13px;
+    line-height: 16px;
+    color: #000;
+    border-color: #000;
+    padding: 12px 20px;
+}
+.gal-btn {
+    /*font-size: 13px;*/
+    /*line-height: 16px;*/
+    color: #000;
+    border-color: #000;
+}
+.gal-btn:hover,
+.gal-btn:focus {
+    color: #000;
+    opacity: 1;
+    animation: 10s infinite granimate;
+    visibility: visible;
+    background-size: 200% 300%;
+    transition: 0.2s ease-in-out;
+    background-image: linear-gradient(
+            217deg
+            , rgb(255 53 53 / 80%), rgba(255,0,0,0) 70.71%),linear-gradient(
+            127deg
+            , rgb(85 85 188 / 80%), rgba(0,0,255,0) 70.71%),linear-gradient(
+            336deg
+            , rgba(0,255,0,0.8), rgba(0,255,0,0) 70.71%);
+    -webkit-animation: 10s infinite granimate;
+    background-color: transparent;
+}
+.gal-btn:active {
+    box-shadow: 0 5px 5px -3px rgb(0 0 0 / 20%), 0px 8px 10px 1px rgb(0 0 0 / 14%), 0px 3px 14px 2px rgb(0 0 0 / 12%);
+    color: #000;
+}
+.bottom-border-dark {
+    border-bottom: 2px solid #000 !important;
+}
+@media (max-width: 480px) {
+    .bottom-border-dark {
+        border: none !important;
+    }
+}
+.top-border-dark {
+    border-top: 2px solid #000 !important;
+}
+/*@media (max-width: 480px) {*/
+/*    .bottom-border-dark {*/
+/*        border: none !important;*/
+/*    }*/
+/*}*/
