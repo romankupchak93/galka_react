@@ -1,0 +1,53 @@
+.gal-btn {
+    margin: 0;
+    padding: 12px 20px;
+    border-radius: 30px;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    color: #000;
+    border-color: #000000;
+}
+.gal-btn:hover,
+.gal-btn:focus {
+    color: #fff;
+    opacity: 1;
+    visibility: visible;
+    transition: .3s ease-in-out;
+    background: linear-gradient(45deg, #d38312 10%, #a83279 90%);
+    background-size: 200% 100%;
+    box-shadow: 0 .5rem 1rem rgba(190, 190, 190, 0.15) !important;
+    -webkit-animation: bruh 3s linear infinite;
+    animation: bruh 3s linear infinite;
+    text-decoration: none;
+}
+.gal-btn:active {
+    box-shadow:0 .5rem 1rem rgba(0,0,0,.15)!important;
+    -webkit-animation: bruh 3s linear infinite;
+    animation: bruh 3s linear infinite;
+    color: #fff;
+}
+.btn-arrow:hover {
+    text-decoration: none;
+    color: #000;
+}
+.btn-arrow a:hover {
+    text-decoration: none;
+    color: #000;
+}
+.btn-arrow:hover svg {
+    transition: .2s;
+    transform: translateX(10px);
+}
+.arrow-left:hover svg {
+    transition: .2s;
+    transform: translateX(-10px);
+}
+.arrow-right:hover svg {
+    transition: .2s;
+    transform: translateX(10px);
+}
+.btn-link {
+    text-decoration: none;
+    color: #000;
+}

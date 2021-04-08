@@ -1,0 +1,41 @@
+@font-face {
+    font-family: "e-ukraine";
+    font-style: normal;
+    src: url("e-Ukraine-Regular.eot");
+    src: url("e-Ukraine-Regular.eot?#iefix") format("embedded-opentype"),
+    url("e-Ukraine-Regular.ttf") format("truetype"),
+    url("e-Ukraine-Regular.woff") format("woff"),
+    url("e-Ukraine-Regular.woff2") format("woff2");
+    font-weight: 400
+}
+@font-face {
+    font-family: "e-ukraine";
+    font-style: normal;
+    src: url('e-Ukraine-Light.eot');
+    src: url('e-Ukraine-Light.eot?#iefix') format('embedded-opentype'),
+    url('e-Ukraine-Light.ttf') format('truetype'),
+    url('e-Ukraine-Light.woff') format('woff'),
+    url('e-Ukraine-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: "e-ukraine";
+    font-style: normal;
+    src: url("e-Ukraine-Medium.eot");
+    src: url("e-Ukraine-Medium.eot?#iefix") format("embedded-opentype"),
+    url("e-Ukraine-Medium.ttf") format("truetype"),
+    url("e-Ukraine-Medium.woff") format("woff"),
+    url("e-Ukraine-Medium.woff2") format("woff2");
+    font-weight: 500
+}
+
+@font-face {
+    font-family: "e-ukraine-heading";
+    font-style: normal;
+    src: url("e-UkraineHead-Regular.eot");
+    src: url("e-UkraineHead-Regular.eot?#iefix") format("embedded-opentype"),
+    url("e-UkraineHead-Regular.ttf") format("truetype"),
+    url("e-UkraineHead-Regular.woff") format("woff"),
+    url("e-UkraineHead-Regular.woff2") format("woff2");
+    font-weight: 400
+}

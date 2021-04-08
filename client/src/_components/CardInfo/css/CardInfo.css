@@ -1,0 +1,7 @@
+.smart-card_stud {
+    background-image: url('../../../_themes/assets/img/cardinfo/smart_card_stud.png');
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+    min-height: 270px;
+}

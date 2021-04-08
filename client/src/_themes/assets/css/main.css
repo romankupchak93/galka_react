@@ -1,0 +1,216 @@
+@import "../fonts/e-Ukraine/font.css";
+body {
+    font-family: "e-ukraine";
+    font-weight: 400;
+    background: #F5F5F5;
+    color: #000
+}
+body * {
+    word-break: keep-all;
+    word-wrap: break-word;
+    font-family: "e-ukraine";
+    outline: none
+}
+#body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100vh;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #F5F5F5;
+    box-shadow: 0 1px 8px 0 rgb(0 0 0 / 20%);
+    width: 100%;
+}
+.layout-main {
+    overflow: hidden;
+    height: 100%;
+
+}
+a {
+    color: #000;
+    text-decoration: none;
+}
+a:hover {
+    color: #000;
+    text-decoration: underline;
+}
+h1, h2, h3, h4, h5 {
+    font-family: "e-ukraine";
+    letter-spacing: -0.02em;
+}
+p {
+    font-family: "e-ukraine";
+    letter-spacing: -0.02em;
+}
+@media (max-width: 768px) {
+    .responsive-title {
+        max-width: 260px;
+    }
+}
+section {
+    padding: 70px 0;
+}
+@media (max-width: 991px) {
+    section {
+        padding: 40px 0;
+    }
+    .wrapper {
+        position: relative;
+    }
+}
+.post-title {
+    overflow: hidden;
+    display: -moz-box;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -moz-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    letter-spacing: -0.02em;
+    transition: 0.2s ease-in-out;
+}
+.pt-6 {
+    padding-top: 6rem;
+}
+.pt-7 {
+    padding-top: 7rem;
+}
+.pt-8 {
+    padding-top: 8rem;
+}
+.pb-20 {
+    padding-bottom: 20px;
+}
+.mt-6 {
+    margin-top: 6rem !important;
+}
+.mt-7 {
+    margin-top: 7rem !important;
+}
+
+.border-bottom-dark {
+    border-bottom: 2px solid #000 !important;
+}
+.border-top-dark {
+    border-top: 2px solid #000 !important;
+}
+.breadcrumb-item a {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgba(0,0,0,0.5);
+}
+.breadcrumb-item a:hover,
+.breadcrumb-item a:focus {
+    font-size: 13px;
+    line-height: 16px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+/*.slick-next, .slick-prev {*/
+/*    font-size: 0;*/
+/*    position: absolute;*/
+/*    line-height: 0;*/
+/*    flex: 0 1 100%;*/
+/*    display: flex !important;*/
+/*    margin-left: auto;*/
+/*    transform: translate(0,-50%);*/
+/*    color: transparent;*/
+/*    border: none;*/
+/*    outline: 0;*/
+/*    background: 0 0;*/
+/*    width: 47px;*/
+/*    height: 40px;*/
+/*    top: -50px;*/
+/*    transition: 0.2s ease-in-out;*/
+/*}*/
+/*.slick-prev {*/
+/*    left: 75%;*/
+/*}*/
+/*@media (max-width: 768px) {*/
+/*    .slick-prev {*/
+/*        left: 70%;*/
+/*    }*/
+/*}*/
+/*.slick-next {*/
+/*    right: 0;*/
+/*}*/
+/*.slick-prev:before {*/
+/*    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iNjciIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA2NyA0NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNMjMuNTkzNCA0My4xMDA5TDAuNzkxNTI5IDIyTDIzLjU5MzQgMC44OTkwOTRMMjUuNjMxIDMuMTAwOTVMNi44MjkzOSAyMC41TDY3IDIwLjVMNjcgMjMuNUw2LjgyOTM5IDIzLjVMMjUuNjMxIDQwLjg5OTFMMjMuNTkzNCA0My4xMDA5WiIgZmlsbD0iYmxhY2siIC8+Cjwvc3ZnPgo=);*/
+/*    width: 64px;*/
+/*    height: 40px;*/
+/*    cursor: pointer;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: center;*/
+/*    transition: 0.2s ease-in-out;*/
+/*    content: '';*/
+/*}*/
+/*.slick-next:before {*/
+/*    background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4KPHN2ZyB3aWR0aD0iNjciIGhlaWdodD0iNDQiIHZpZXdCb3g9IjAgMCA2NyA0NCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGZpbGwtcnVsZT0iZXZlbm9kZCIgY2xpcC1ydWxlPSJldmVub2RkIiBkPSJNNDMuNDA2NiAwLjg5OTA0OEw2Ni4yMDg1IDIyTDQzLjQwNjYgNDMuMTAwOUw0MS4zNjkgNDAuODk5TDYwLjE3MDYgMjMuNUgwVjIwLjVINjAuMTcwNkw0MS4zNjkgMy4xMDA5TDQzLjQwNjYgMC44OTkwNDhaIiBmaWxsPSJibGFjayIgLz4KPC9zdmc+Cg==);*/
+/*    width: 64px;*/
+/*    height: 40px;*/
+/*    cursor: pointer;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: contain;*/
+/*    background-position: center;*/
+/*    transition: 0.2s ease-in-out;*/
+/*    content: '';*/
+/*}*/
+/*.slick-slide > div {*/
+/*    margin: 0 10px;*/
+/*}*/
+/*.slick-list {*/
+/*    margin: 0 -10px;*/
+/*}*/
+/*.slick-dots {*/
+/*    bottom: 0;*/
+/*    margin: 50px auto 0 auto;*/
+/*    list-style: none;*/
+/*    text-align: center;*/
+/*    display: flex !important;*/
+/*    width: 100%;*/
+/*    position: static;*/
+/*    max-width: 768px;*/
+/*    transition: .3s opacity;*/
+/*}*/
+/*.slick-dots li {*/
+/*    position: relative;*/
+/*    display: inline-block;*/
+/*    max-width: 100%;*/
+/*    height: 20px;*/
+/*    margin: 0 0;*/
+/*    padding: 0;*/
+/*    cursor: pointer;*/
+/*    width: auto;*/
+/*    flex-basis: 0;*/
+/*    flex-grow: 1;*/
+/*    transition: 0.2s ease-in-out;*/
+
+/*}*/
+/*.slick-dots li button {*/
+/*    font-size: 0;*/
+/*    line-height: 0;*/
+/*    display: block;*/
+/*    width: 100%;*/
+/*    height: 20px;*/
+/*    padding: 5px;*/
+/*    cursor: pointer;*/
+/*    color: transparent;*/
+/*    border: 0;*/
+/*    outline: 0;*/
+/*    background: 0 0;*/
+/*}*/
+/*.slick-dots li button:before {*/
+/*    position: absolute;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 20px;*/
+/*    content: '';*/
+/*    text-align: center;*/
+/*    border-bottom: 2px solid;*/
+/*}*/
+/*.slick-dots li button:focus:before, .slick-dots li button:hover:before {*/
+/*    opacity: .75;*/
+/*}*/

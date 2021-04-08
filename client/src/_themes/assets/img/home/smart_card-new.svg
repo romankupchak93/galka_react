@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 234 161">
+    <defs>
+        <style>
+            .a{fill:#000; opacity: .1}
+            .b{fill:#fff; opacity: .8}
+            .c{fill:#000; opacity: .1}
+        </style>
+    </defs>
+    <path class="a" d="M209.73,150.17,156.1,80.79A31.86,31.86,0,0,1,188,48.93h46.36L209.78,63.34Z"/>
+    <circle class="b" cx="187.94" cy="67.96" r="4.21"/>
+    <rect class="a" x="194.78" y="26.91" width="7.82" height="7.82" transform="translate(79.99 -131.47) rotate(45)"/>
+    <rect class="a" x="184.03" y="26.91" width="7.82" height="7.82" transform="translate(76.84 -123.86) rotate(45)"/>
+    <rect class="a" x="173.04" y="26.91" width="7.82" height="7.82" transform="translate(73.62 -116.09) rotate(45)"/>
+    <rect class="a" x="174.08" y="38.92" width="27.49" height="5.97"/>
+    <polygon class="c" points="0 0 0 40.39 31.22 40.39 0 0"/>
+    <polygon class="c" points="0 40.39 0 80.79 31.22 80.79 0 40.39"/>
+    <polygon class="c" points="0 80.79 0 121.18 31.22 121.18 0 80.79"/>
+    <polygon class="c" points="0 121.18 0 161.57 31.22 161.57 0 121.18"/>
+    <polygon class="c" points="31.22 0 31.22 40.39 62.44 40.39 31.22 0"/>
+    <polygon class="c" points="31.22 40.39 31.22 80.79 62.44 80.79 31.22 40.39"/>
+    <polygon class="c" points="31.22 80.79 31.22 121.18 62.44 121.18 31.22 80.79"/>
+    <polygon class="c" points="31.22 121.18 31.22 161.57 62.44 161.57 31.22 121.18"/>
+    <polygon class="c" points="62.44 40.39 62.44 80.79 93.66 80.79 62.44 40.39"/>
+    <polygon class="c" points="62.44 80.79 62.44 121.18 93.66 121.18 62.44 80.79"/>
+    <polygon class="c" points="62.44 121.18 62.44 161.57 93.66 161.57 62.44 121.18"/>
+    <polygon class="c" points="93.66 80.79 93.66 121.18 124.88 121.18 93.66 80.79"/>
+    <polygon class="c" points="93.66 121.18 93.66 161.57 124.88 161.57 93.66 121.18"/>
+    <polygon class="c" points="124.88 121.18 124.88 161.57 156.1 161.57 124.88 121.18"/>
+    <polygon class="c" points="156.1 80.79 156.1 121.18 187.32 121.18 156.1 80.79"/>
+    <polygon class="c" points="156.1 121.18 156.1 161.57 187.32 161.57 156.1 121.18"/>
+    <polygon class="c" points="187.32 121.18 187.32 161.57 218.55 161.57 187.32 121.18"/>
+    <polygon class="a" points="62.44 0 62.44 40.39 93.66 40.39 62.44 0"/>
+    <polygon class="a" points="93.66 0 93.66 40.39 124.88 40.39 93.66 0"/>
+    <polygon class="a" points="93.66 40.39 93.66 80.79 124.88 80.79 93.66 40.39"/>
+    <polygon class="a" points="124.88 0 124.88 40.39 156.1 40.39 124.88 0"/>
+    <polygon class="a" points="124.88 40.39 124.88 80.79 156.1 80.79 124.88 40.39"/>
+    <polygon class="a" points="124.88 80.79 124.88 121.18 156.1 121.18 124.88 80.79"/>
+</svg>

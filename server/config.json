@@ -1,4 +1,10 @@
 ﻿{
-    "secret": "JWT SECRET",
-    "salt": "DB SALT"
+    "database": {
+        "host": "localhost",
+        "port": 3306,
+        "user": "root",
+        "password": "1qazXSW@",
+        "database": "db_galka"
+    },
+    "secret": "galkaappmysqldb"
 }

@@ -1,3 +1,3 @@
-export default {
-    baseUrl: 'http://localhost:4000'
-}
+export const config = {
+    apiUrl: 'http://localhost:4000'
+};
